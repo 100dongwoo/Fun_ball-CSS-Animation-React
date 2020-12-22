@@ -115,9 +115,11 @@ function Hero(props) {
                             initial={{ opacity: 0 }}
                             animate={{
                                 opacity: 1,
+                                //transition을 안에 넣어야 반응이 빠름
                                 transition: { duration: 1.5 },
                             }}
                             whileHover={{ scale: 1.05 }}
+                            // transition={{ duration: 1.5 }}
                         >
                             Get Started
                         </Button>
